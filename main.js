@@ -7,7 +7,7 @@ const chalk = require('chalk')
 const FileType = require('file-type')
 const path = require('path')
 const axios = require('axios')
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('2349038163213')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
 const { default: XeonBotIncConnect, delay, PHONENUMBER_MCC, makeCacheableSignalKeyStore, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, Browsers} = require("@whiskeysockets/baileys")
@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2349066528353"
+let phoneNumber = "2349038163213"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -168,9 +168,9 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
 			await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: DeeCeeXxx`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: DeeCeeXxx `))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @davidcyril002 `))
+	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: ....`))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: ....`))
+            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: ...`))
             console.log(chalk.magenta(`${themeemoji} WA NUMBER: ${owner}`))
             console.log(chalk.magenta(`${themeemoji} CREDIT: ${wm}\n`))
         }
